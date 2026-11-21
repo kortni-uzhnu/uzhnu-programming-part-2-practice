@@ -1,0 +1,9 @@
+/build/
+/original_array.txt
+/sorted_array.txt
+/report.txt
+/*.exe
+/*.pdb
+/*.obj
+__pycache__/
+*.pyc
