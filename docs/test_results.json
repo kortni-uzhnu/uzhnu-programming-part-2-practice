@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-21",
+  "platform": "Linux WSL",
+  "execution_cases_passed": 68,
+  "results": [
+    {
+      "program": "merge_sort",
+      "name": "Mixed real numbers and duplicates",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Empty array",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Single element",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Already sorted",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reverse sorted",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "All equal",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Signed zero stability",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Extreme finite values",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Seeded larger array",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Interactive keyboard input",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Interactive file input",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 1",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 2",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 3",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 4",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 5",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 6",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 7",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 8",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 9",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 10",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 11",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject invalid array file 12",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Invalid menu",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Non-numeric size",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Keyboard numeric suffix",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Extra keyboard values",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Interrupted keyboard entry",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Interrupted output prompt",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Missing numeric input file",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Protect numeric input file",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject duplicate numeric outputs",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject missing output folder",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject directory as numeric output",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Merge sort help",
+      "status": "PASS"
+    },
+    {
+      "program": "merge_sort",
+      "name": "Reject merge sort argument count",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Repeated ASCII letters",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Ten distinct characters",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Spaces punctuation and case",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Spaces only",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Ukrainian string",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Emoji characters",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Combining characters",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Control characters",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Unicode boundaries",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Printable ASCII alphabet",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Final LF",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Final CRLF",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Optional UTF-8 BOM",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 1",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 2",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 3",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 4",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 5",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 6",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 7",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 8",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 9",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 10",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject invalid text file 11",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Missing text input file",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Protect text input file",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Missing text output folder",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject directory as text output",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Replace an existing output report",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Interactive text filenames",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Character analysis help",
+      "status": "PASS"
+    },
+    {
+      "program": "character_frequency",
+      "name": "Reject character analysis argument count",
+      "status": "PASS"
+    }
+  ],
+  "console_sessions": {
+    "Mixed real numbers and duplicates": {
+      "stdin": "",
+      "stdout": "Original array saved to /mnt/host/c/Users/cshie/AppData/Local/Temp/practice-cli-n2ret3og/case-000/original.txt\nSorted array (8 elements):\n-7.25 -2 0 1.125 3.5 3.5 4 10 \nSorted array saved to /mnt/host/c/Users/cshie/AppData/Local/Temp/practice-cli-n2ret3og/case-000/sorted.txt\nElement comparisons: 16\n",
+      "stderr": ""
+    },
+    "Interactive keyboard input": {
+      "stdin": "1\n5\n4.5 -2\n7 0 4.5\n\n\n",
+      "stdout": "Merge sort\n1. Keyboard input\n2. File input\nChoice: Number of elements (0-1000000): Enter 5 real numbers, separated by spaces or newlines:\nSave original array as [original_array.txt]: Save sorted array as [sorted_array.txt]: Original array saved to original_array.txt\nSorted array (5 elements):\n-2 0 4.5 4.5 7 \nSorted array saved to sorted_array.txt\nElement comparisons: 7\n",
+      "stderr": ""
+    },
+    "Non-numeric size": {
+      "stdin": "1\nabc\n",
+      "stdout": "Merge sort\n1. Keyboard input\n2. File input\nChoice: Number of elements (0-1000000): ",
+      "stderr": "Error: Enter an integer element count from 0 to 1000000.\n"
+    },
+    "Repeated ASCII letters": {
+      "stdin": "",
+      "stdout": "Characters counted: 6\nDistinct characters: 3\nReport saved to /mnt/host/c/Users/cshie/AppData/Local/Temp/practice-cli-n2ret3og/case-030/report.txt\n",
+      "stderr": ""
+    },
+    "Ukrainian string": {
+      "stdin": "",
+      "stdout": "Characters counted: 22\nDistinct characters: 11\nReport saved to /mnt/host/c/Users/cshie/AppData/Local/Temp/practice-cli-n2ret3og/case-034/report.txt\n",
+      "stderr": ""
+    },
+    "Reject invalid text file 4": {
+      "stdin": "",
+      "stdout": "",
+      "stderr": "Error: Input must contain one line of text only.\n"
+    }
+  },
+  "source_sha256": {
+    "src/character_frequency.cpp": "d20804011e50eb1bc3d3fd1f58434d3f26b7f83c576bdbf7301f0b86efa1ce79",
+    "src/character_frequency.hpp": "da36493f30278af66d37f6dcde0dde0a9a2ee18c92fdbdfd07b88cfdb7b32b35",
+    "src/common.hpp": "d5851226231ec25492309f34eedb9003938162ffaeb73c30edeaf8a58637c1b2",
+    "src/merge_sort.cpp": "87507a6d9a1398e289b7c3bbab1cf15b0599fc1b22b86edd76b57ae6c26efefe",
+    "src/merge_sort.hpp": "17b78d7341ebb54a87b7b3956009f4d7c689c225bb8b6b6099cb2101ff936fa1"
+  }
+}

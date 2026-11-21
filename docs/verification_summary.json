@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-21",
+  "builds_passed": 8,
+  "core_checks_passed": 992,
+  "cli_cases_passed": 68,
+  "execution_environment": "Linux WSL",
+  "native_windows_runtime": "Not fully verified; Application Control blocked sorter and core tests. Character-frequency help ran.",
+  "benchmark_batches": 360,
+  "report_pages": 37,
+  "report_bytes": 557581,
+  "source_hashes_match_tests_and_benchmarks": true,
+  "pdf_sha256": "d3d96465a7c501677f46bfef77b3198f59ad26ae680ebfef4459ed959544b8c8",
+  "status": "Prepared locally for review, not uploaded or submitted"
+}

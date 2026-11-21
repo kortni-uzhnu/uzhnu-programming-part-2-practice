@@ -1,0 +1,68 @@
+Programming practice verification
+21 November 2026
+
+Compiler: Zig 0.17.1 C++ driver with libc++.
+Options: -std=c++17 -Wall -Wextra -Wpedantic -Werror -O2
+
+All eight builds passed without warnings:
+  Windows x86-64: merge_sort, character_frequency, practice_tests, benchmark
+  Linux x86-64:   merge_sort, character_frequency, practice_tests, benchmark
+
+Execution environment: local Linux WSL, docker-desktop distribution.
+  PASS: 992 core checks.
+  PASS: 68 end-to-end cases.
+  PASS: 360 measured benchmark batches, with all sorted results checked.
+  PASS: independent validation of the 360 CSV observations and 40 summary rows.
+  PASS: numeric, English and Ukrainian demonstration runs.
+
+Native Windows execution was not fully verified. Application Control blocked
+merge_sort.exe and practice_tests.exe. The character_frequency.exe help command
+ran successfully. No security settings were changed. Linux execution provided
+the full functional tests and recorded benchmark results.
+
+Core checks cover merge-sort results against std::stable_sort for 400 sizes,
+comparison bounds, exact small-operation counts, equal-value stability using
+signed zero, finite-value validation, full-precision floating-point round trips,
+file parsing, path checks, UTF-8 boundaries and malformed encodings, Ukrainian,
+emoji and combining code points, randomized frequency maps, line endings,
+optional BOM and the text-size boundary.
+
+The console suite checks actual executable behaviour and output files using
+Python sorting and Counter as independent result oracles. It includes both
+keyboard and file modes, normal and edge inputs, original-array preservation,
+saved sorted results, invalid input, missing files, malformed data, interrupted
+input, output path conflicts, precise numeric values and character report rows.
+
+Benchmark configuration:
+  100, 1,000, 10,000, 100,000 and 1,000,000 elements
+  random, sorted, reverse-sorted and few-unique patterns
+  merge_sort and std::sort
+  fixed seed 20261121; one warm-up and nine measured repetitions
+  batches of 128, 32, 4, 1 and 1 sorts for the five sizes respectively
+  alternate algorithm order across repetitions
+  steady_clock; microseconds per sort; median, Q1, Q3, minimum and maximum
+  comparison counts measured separately from timings
+
+The timing region contains the sort call. Merge sort includes finite-value
+validation and scratch-buffer allocation. Input generation/copying, file access,
+reference sorting and result checks are outside timing. The comparison describes
+these implementations in this environment, not universal relative performance.
+The repeated samples use the same deterministic dataset for each configuration.
+
+Evidence:
+  docs/test_results.json
+  docs/demo_sessions.json
+  benchmarks/linux_raw.csv
+  benchmarks/linux_summary.csv
+  benchmarks/metadata.json
+
+Known implementation choices:
+  Vector provides dynamic array allocation; no raw new[]/delete[] is required.
+  Zero-length arrays are supported.
+  Text input is one UTF-8 line, with optional BOM and terminal LF/CRLF.
+  Characters mean Unicode code points; no grapheme grouping or case folding.
+  Existing output files are overwritten after path/input checks.
+  File writes are checked but are not transactional or power-loss-safe.
+  Full native Windows execution remains unverified due to Application Control.
+
+The project and report were prepared locally for review before submission.

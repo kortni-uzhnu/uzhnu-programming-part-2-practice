@@ -1,0 +1,14 @@
+{
+  "Merge sort example": {
+    "stdout": "Original array saved to /mnt/host/c/Users/cshie/Desktop/UzhNU/Programming Part II Practice/examples/results/original.txt\nSorted array (8 elements):\n-7.25 -2 0 1.125 3.5 3.5 4 10 \nSorted array saved to /mnt/host/c/Users/cshie/Desktop/UzhNU/Programming Part II Practice/examples/results/sorted.txt\nElement comparisons: 16\n",
+    "stderr": ""
+  },
+  "English character example": {
+    "stdout": "Characters counted: 20\nDistinct characters: 10\nReport saved to /mnt/host/c/Users/cshie/Desktop/UzhNU/Programming Part II Practice/examples/results/english_report.txt\n",
+    "stderr": ""
+  },
+  "Ukrainian character example": {
+    "stdout": "Characters counted: 22\nDistinct characters: 11\nReport saved to /mnt/host/c/Users/cshie/Desktop/UzhNU/Programming Part II Practice/examples/results/ukrainian_report.txt\n",
+    "stderr": ""
+  }
+}

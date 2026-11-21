@@ -1,0 +1,106 @@
+[
+  {
+    "target": "windows",
+    "program": "merge_sort",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  },
+  {
+    "target": "windows",
+    "program": "character_frequency",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  },
+  {
+    "target": "windows",
+    "program": "practice_tests",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  },
+  {
+    "target": "windows",
+    "program": "benchmark",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  },
+  {
+    "target": "linux",
+    "program": "merge_sort",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  },
+  {
+    "target": "linux",
+    "program": "character_frequency",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  },
+  {
+    "target": "linux",
+    "program": "practice_tests",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  },
+  {
+    "target": "linux",
+    "program": "benchmark",
+    "flags": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-O2"
+    ],
+    "status": "PASS"
+  }
+]
