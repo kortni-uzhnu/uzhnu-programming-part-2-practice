@@ -1,0 +1,11 @@
+Code point	Character	Count
+U+0020	SPACE	2
+U+0021	!	2
+U+002C	,	1
+U+0048	H	2
+U+0064	d	1
+U+0065	e	2
+U+006C	l	5
+U+006F	o	3
+U+0072	r	1
+U+0077	w	1
