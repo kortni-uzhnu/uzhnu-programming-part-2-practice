@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-21",
+  "execution_environment": "Local Linux WSL, docker-desktop distribution",
+  "kernel": "Linux 6.18.33.2-microsoft-standard-WSL2 x86_64 Linux",
+  "cpu": "11th Gen Intel Core i7-11800H @ 2.30GHz; 8 cores, 16 logical processors",
+  "compiler": "Zig 0.17.1 C++ driver, libc++",
+  "flags": [
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O2"
+  ],
+  "seed": 20261121,
+  "sizes": [
+    100,
+    1000,
+    10000,
+    100000,
+    1000000
+  ],
+  "patterns": [
+    "random",
+    "sorted",
+    "reverse",
+    "few_unique"
+  ],
+  "repetitions": 9,
+  "raw_rows": 360,
+  "summary_rows": 40,
+  "timed_batches": 360,
+  "median_definition": "Middle of 9 samples; Q1=third sorted sample, Q3=seventh sorted sample",
+  "timed_region": "Sort calls only. Merge sort includes input validation and scratch allocation; input copy and result checks excluded.",
+  "source_sha256": {
+    "benchmarks/benchmark.cpp": "ae4f7a031e55aa308016a4b8c8058bef7dee92922ef87db76babd3b7a3ba071f",
+    "src/character_frequency.cpp": "d20804011e50eb1bc3d3fd1f58434d3f26b7f83c576bdbf7301f0b86efa1ce79",
+    "src/character_frequency.hpp": "da36493f30278af66d37f6dcde0dde0a9a2ee18c92fdbdfd07b88cfdb7b32b35",
+    "src/common.hpp": "d5851226231ec25492309f34eedb9003938162ffaeb73c30edeaf8a58637c1b2",
+    "src/merge_sort.cpp": "87507a6d9a1398e289b7c3bbab1cf15b0599fc1b22b86edd76b57ae6c26efefe",
+    "src/merge_sort.hpp": "17b78d7341ebb54a87b7b3956009f4d7c689c225bb8b6b6099cb2101ff936fa1"
+  },
+  "csv_sha256": {
+    "linux_raw.csv": "c0fafb65d507ab45d90da542bcb35be139e208894a86c578b27768d2d8cc7cdc",
+    "linux_summary.csv": "7c551128094d1d6ceb073ba8371ab5103b3a9cc96239d4e176e38118ba4e4c99"
+  },
+  "benchmark_data_checks": "All 360 observations checked against summary statistics; every timed result was checked by the C++ runner."
+}
